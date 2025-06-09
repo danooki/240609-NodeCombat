@@ -12,7 +12,7 @@ const validTypes = [
 const args = process.argv.slice(2);
 const chosenType = args[0];
 
-// If no type is provided
+// if no type is provided
 if (!chosenType) {
   console.log("Please choose a Pokémon type.");
   console.log("Available types: " + validTypes.join(", "));
